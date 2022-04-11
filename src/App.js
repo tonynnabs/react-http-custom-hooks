@@ -21,7 +21,7 @@ function App() {
       transformData
     );
   }, [fetchTasks]);
-
+  
   const taskAddHandler = (task) => {
     setTasks((prevTasks) => prevTasks.concat(task));
   };
